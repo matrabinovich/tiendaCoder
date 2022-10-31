@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "nombre": "Buda",
+        "desc": "Vela Aromatica",
+        "precio": 1100,
+        "img": "./public/images/buda.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 2,
+        "nombre": "Clasica",
+        "desc": "Vela Aromatica",
+        "precio": 1200,
+        "img": "./public/images/clasica.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 3,
+        "nombre": "Cuenco",
+        "desc": "Vela Aromatica",
+        "precio": 1300,
+        "img": "./public/images/cuenco.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 4,
+        "nombre": "Moderna",
+        "desc": "Vela Aromatica",
+        "precio": 1400,
+        "img": "./public/images/moderna.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 5,
+        "nombre": "Moderna Transparente",
+        "desc": "Vela Aromatica",
+        "precio": 1500,
+        "img": "./public/images/modernatrans.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 6,
+        "nombre": "Princess",
+        "desc": "Vela Aromatica",
+        "precio": 1600,
+        "img": "./public/images/princess.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 7,
+        "nombre": "Vaso",
+        "desc": "Vela Aromatica",
+        "precio": 1700,
+        "img": "./public/images/vaso.jpg",
+        "cantidad":1
+    },
+
+    {
+        "id": 8,
+        "nombre": "Vintage",
+        "desc": "Vela Aromatica",
+        "precio": 1800,
+        "img": "./public/images/vintage.jpg",
+        "cantidad":1
+    }
+]
