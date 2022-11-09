@@ -64,4 +64,16 @@ const eliminarProductoCarrito = (productoId) => {
     pintarCarrito(carritoActualizado);
 };
 
-export { agregarAlCarrito, validarProductoRepetido, pintarCarrito, eliminarProductoCarrito };
+const vaciar = (carrito) => {
+
+    while (carrito.length > 0) {
+        carrito.pop()
+    }
+
+    actualizarTotalesCarrito(carrito)
+    pintarCarrito(carrito)
+}
+
+
+
+export { agregarAlCarrito, validarProductoRepetido, pintarCarrito, eliminarProductoCarrito, vaciar};
