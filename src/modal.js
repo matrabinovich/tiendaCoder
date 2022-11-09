@@ -7,6 +7,11 @@ const abrirCarrito = document.getElementById('cesta-carrito');
 const cerrarCarrito = document.getElementById('btn-cerrar-carrito');
 const modalCarrito = document.querySelector('.modal-carrito');
 const vaciarCarrito = document.getElementById('empty-cart')
+const getCarritoStorage = () => {
+    const carritoStorage = JSON.parse(localStorage.getItem("carrito"));
+    return carritoStorage;
+};
+
 
 abrirCarrito.addEventListener('click', () => {
     modalContenedor.classList.toggle('modal-active')
